@@ -1,3 +1,11 @@
 .odintest {
     background-color: red; color: white; font-size: 32px; text-align: center; font-weight: bold;
 }
+
+.mainheader {
+    color:olive; background-color: black; font-family: monospace; text-align: center;"
+}
+
+.headerimg {
+    margin: 0; border: 0; padding: 0;
+}
