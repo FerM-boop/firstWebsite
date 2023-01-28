@@ -1,11 +1,56 @@
-.odintest {
-    background-color: red; color: white; font-size: 32px; text-align: center; font-weight: bold;
+body{
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: olive;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .mainheader {
-    color:olive; background-color: black; font-family: monospace; text-align: center;"
+    color: olive;
+    background-color: black;
+    font-family: monospace;
+    text-align: left;
+    margin: 0;
+    border: 0;
+    padding: 2px;
+    padding-left: 10px;
 }
 
 .headerimg {
-    margin: 0; border: 0; padding: 0;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    display: block;
+}
+
+.header-group {
+    margin-top: -8px;
+    padding: 0px;
+    border: 0px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
 }
