@@ -7,9 +7,9 @@ body{
     background: repeating-linear-gradient(
         to right,
         gray,
+        gray 10px,
         black 10px,
-        gray 20px,
-        black 30px
+        black 20px
     );
 }
 
