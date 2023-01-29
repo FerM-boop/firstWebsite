@@ -2,12 +2,24 @@ body{
     margin: 0;
 }
 
+.stripes{
+    position: sticky;
+    background: repeating-linear-gradient(
+        to right,
+        gray,
+        black 10px,
+        gray 20px,
+        black 30px
+    );
+}
+
 nav{
+    font-family: monospace;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 30px;
     background-color: black;
 }
 
@@ -26,17 +38,17 @@ nav ul li a{
     color: olive;
     font-size: 15px;
     text-decoration: none;
+    padding: 15px;
 }
 
 .mainheader {
     color: olive;
-    background-color: black;
-    font-family: monospace;
     text-align: left;
     margin: 0;
     border: 0;
     padding: 2px;
     padding-left: 10px;
+    font-size: 1.5em;
 }
 
 .headerimg {
